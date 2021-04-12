@@ -1,0 +1,72 @@
+.AssistanceDiv{
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 15vh;
+    align-items: center;
+    font-size: 15px
+}
+.AssistanceText{
+    font-size: calc(0.4vh + 0.7vw);
+    text-align: left;
+}
+.AssistanceText h1{
+    font-size: calc(1.3vh + 2.2vw);
+    margin-top: 15px;
+}
+.PhoneIcon{
+    width: calc(2vh + 2vw);
+    margin-left: 45%;
+    margin-top: 5px;
+    display: block;
+ 
+}
+.PhoneSvg{
+    width: 90%;
+    margin: 15px;
+}
+@media(max-width: 1920px) {
+    .PhoneIcon{
+        margin-left: 43.5%;
+        }
+}
+@media(max-width: 1550px) {
+    .PhoneIcon{
+        margin-left: 42%;
+        }
+}
+@media(max-width: 1200px) {
+    .PhoneIcon{
+        margin-left: 40%;
+        }
+}
+@media(max-width: 900px) {
+    .PhoneIcon{
+        margin-left: 37%;
+        }
+}
+
+@media(max-width: 700px) {
+    .AssistanceDiv{
+       margin: auto;
+       width: 85%;
+       margin-bottom: 5vh;
+       margin-top: 7vh;
+    }
+    .PhoneIcon{
+    margin-left: 41%;
+    }
+    .AssistanceText{
+        font-size: 15px
+    }
+}
+
+@media(max-width: 420px) {
+    .PhoneIcon{
+    margin-left: 36%;
+    }
+}
+a {
+    text-decoration: none;
+    color: black;;
+    cursor: pointer;
+}

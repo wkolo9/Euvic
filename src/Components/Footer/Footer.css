@@ -1,0 +1,23 @@
+.Footer{
+    width: 100%;
+    height: 15%;
+    background-color: #052257;
+    color: white;
+}
+.FooterLinks{
+    display: flex;
+    align-items: center;
+}
+.Copyright{
+    clear: both;
+    font-size: calc(0.4vh + 0.35vw);
+    padding: 15px;
+}
+.FooterIcon{
+    font-size: calc(1vh + 1vw);
+    white-space:pre;
+}
+.FooterLogoImg{
+    width: auto;
+    height: 5vh;
+}

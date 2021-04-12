@@ -1,0 +1,30 @@
+.Navbar{
+    background-color: #ededed;
+    height: calc(2.5vh + 2.5vw);
+    width: 100%;
+    position: absolute;
+    
+}
+.NavLogo{
+    float: left;
+    margin-left: 12vh;
+}
+.NavText{
+    float: right;
+    margin-right: 12vh;
+    margin-top: calc(0.8vh + 0.8vw);
+    font-size: calc(0.75vh + 0.55vw);;
+    white-space:pre;
+    color: #3277cb;
+    font-weight: 500;
+}
+.LogoImg{
+    height: auto;
+    margin-top: calc(0.5vh + 0.5vw);
+    width: calc(3vh + 4vw);
+}
+a {
+    text-decoration: none;
+    color: #3277cb;
+    cursor: pointer;
+}
